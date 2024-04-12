@@ -1,0 +1,118 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.shap{
+    display: flex;
+    position:fixed;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornsilk;
+    border-bottom: 1px solid black;
+    width: 1903px;
+}
+.novosti{
+    display: flex;
+    background-color: rgb(252, 247, 229);
+    width: 1903px;
+    height: 880px;
+}
+.naz{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+}
+.prof{
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.rek{
+    display: flex;
+    justify-content:end ;
+    align-items: center;
+}
+.reklama{
+    padding:30px;
+    width: 1843px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(253, 240, 192);
+    border-top: 1px solid black;
+}
+.pogoda{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    gap: 5px;
+    padding:10px;
+    background-color: rgb(253, 240, 192);
+    border:1px solid black;
+    border-radius:20px;
+    margin:30px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.rom{
+    width: 1903px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.obed{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap:350px;
+    padding-left: 70px;
+}
+.bol{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: tahoma;
+  font-size: 22px;
+  background-color: rgb(248, 240, 206);
+}
+
+.dropbtn {
+    background-color: cornsilk;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(253, 240, 192);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  
+  .dropdown:hover .dropbtn {background-color: rgb(206, 204, 197);}

@@ -1,0 +1,31 @@
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.obz{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(253, 240, 192);
+    border:1px solid black;
+    border-radius:20px;
+    display: grid;
+    padding: 20px;
+    font-family: tahoma;
+    font-size: 18px;
+}
+.func{
+    display: flex;
+    justify-content: space-between;
+}
+.nov{
+    display: grid;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+    background: linear-gradient(70deg,orange,black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
